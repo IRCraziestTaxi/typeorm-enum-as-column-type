@@ -8,16 +8,16 @@ However, when running the app, an error occurs:
 
 ```
 DataTypeNotSupportedError: Data type "Object" in "StaffMember.staffMemberType" is not supported by "mysql" database.
-    at new DataTypeNotSupportedError (/Users/jared/IRCraziestTaxi/typeorm-enum-as-column-type/src/error/DataTypeNotSupportedError.ts:9:9)
-    at /Users/jared/IRCraziestTaxi/typeorm-enum-as-column-type/src/metadata-builder/EntityMetadataValidator.ts:87:27
+    at new DataTypeNotSupportedError (/Users/xxx/IRCraziestTaxi/typeorm-enum-as-column-type/src/error/DataTypeNotSupportedError.ts:9:9)
+    at /Users/xxx/IRCraziestTaxi/typeorm-enum-as-column-type/src/metadata-builder/EntityMetadataValidator.ts:87:27
     at Array.forEach (<anonymous>)
-    at EntityMetadataValidator.validate (/Users/jared/IRCraziestTaxi/typeorm-enum-as-column-type/src/metadata-builder/EntityMetadataValidator.ts:84:36)
-    at /Users/jared/IRCraziestTaxi/typeorm-enum-as-column-type/src/metadata-builder/EntityMetadataValidator.ts:45:56
+    at EntityMetadataValidator.validate (/Users/xxx/IRCraziestTaxi/typeorm-enum-as-column-type/src/metadata-builder/EntityMetadataValidator.ts:84:36)
+    at /Users/xxx/IRCraziestTaxi/typeorm-enum-as-column-type/src/metadata-builder/EntityMetadataValidator.ts:45:56
     at Array.forEach (<anonymous>)
-    at EntityMetadataValidator.validateMany (/Users/jared/IRCraziestTaxi/typeorm-enum-as-column-type/src/metadata-builder/EntityMetadataValidator.ts:45:25)
-    at Connection.buildMetadatas (/Users/jared/IRCraziestTaxi/typeorm-enum-as-column-type/src/connection/Connection.ts:527:33)
-    at Connection.<anonymous> (/Users/jared/IRCraziestTaxi/typeorm-enum-as-column-type/src/connection/Connection.ts:193:18)
-    at step (/Users/jared/IRCraziestTaxi/typeorm-enum-as-column-type/node_modules/tslib/tslib.js:143:27)
+    at EntityMetadataValidator.validateMany (/Users/xxx/IRCraziestTaxi/typeorm-enum-as-column-type/src/metadata-builder/EntityMetadataValidator.ts:45:25)
+    at Connection.buildMetadatas (/Users/xxx/IRCraziestTaxi/typeorm-enum-as-column-type/src/connection/Connection.ts:527:33)
+    at Connection.<anonymous> (/Users/xxx/IRCraziestTaxi/typeorm-enum-as-column-type/src/connection/Connection.ts:193:18)
+    at step (/Users/xxx/IRCraziestTaxi/typeorm-enum-as-column-type/node_modules/tslib/tslib.js:143:27)
 ```
 
 ## Migrations
